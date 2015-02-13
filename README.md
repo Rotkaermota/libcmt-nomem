@@ -1,5 +1,5 @@
-Just include this file in your project to use dlmalloc anywhere<br />
-also, don't forget to activate "Ignore Specific Default Libraries" "libcmt" in linker options (Configuration Properties->Linker->Input)<br />
+To use dlmalloc anywhere, just include include/crtfunc.h file in your project<br />
+Also, don't forget to activate "Ignore Specific Default Libraries" "libcmt" in linker options (Configuration Properties->Linker->Input)<br />
 to obtain libcmt_nomem.lib<br />
 - download grep from unix tools
 - run **make_libcmt_nomem.cmd**
